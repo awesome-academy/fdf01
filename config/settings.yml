@@ -1,0 +1,6 @@
+user:
+  email_max_length: 255
+  name_max_lenght: 50
+  pass_min_length: 6
+product:
+  name_max_length: 100
