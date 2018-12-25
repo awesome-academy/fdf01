@@ -1,0 +1,58 @@
+<header>
+  <div class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="user-menu">
+            <ul>
+              <li><%= link_to t(".account"),"#" %></li>
+              <li><%= link_to t(".cart1"),"#" %></li>
+              <li><%= link_to t(".login"),"#" %></li>
+              <li><%= link_to t(".signup"),"#" %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End site branding area -->
+  <div class="site-branding-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="logo">
+            <h1><a href="./"><%= image_tag("logo.png") %></a></h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="shopping-item">
+            <%= link_to t(".cart2"),"#" %>
+              <i class="fa fa-shopping-cart"></i>
+              <span class="product-count">5</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> 
+    <!-- End site branding area -->
+    <div class="mainmenu-area">
+      <div class="container">
+        <div class="row"> 
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><%= link_to t(".home"), "#" %></li>
+              <li><%= link_to t(".shop_page"), "#" %></li>
+              <li><%= link_to t(".single_product"), "#" %></li>
+              <li><%= link_to t(".cart2"), "#" %></li>
+              <li><%= link_to t(".check_out"), "#" %></li>
+              <li><%= link_to t(".category"), "#" %></li>
+              <li><%= link_to t(".other"), "#" %></li>
+              <li><%= link_to t(".contact"), "#" %></li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div> 
+    <!--End main menu area-->
+</header>
